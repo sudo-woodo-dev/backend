@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  area: MyString
+  dining: 1.5
+  parking: 1.5
+  cleanliness: 1.5
+  safety: 1.5
+  price: 1.5
+  family_friendly: false
+  review_text: MyString
+  user_ref: 1
+
+two:
+  area: MyString
+  dining: 1.5
+  parking: 1.5
+  cleanliness: 1.5
+  safety: 1.5
+  price: 1.5
+  family_friendly: false
+  review_text: MyString
+  user_ref: 1
