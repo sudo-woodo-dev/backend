@@ -1,7 +1,7 @@
 class ReviewsController < ApplicationController
 
   before_action :authenticate_user!
-  load_and_authorize_resource
+  # load_and_authorize_resource
 
     def index
       review = Review.where params[:user_id]
