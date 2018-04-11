@@ -19,7 +19,6 @@ ActiveRecord::Schema.define(version: 20180406183021) do
   end
 
   create_table "reviews", force: :cascade do |t|
-    t.string "area"
     t.float "area_rating"
     t.float "dining"
     t.float "parking"

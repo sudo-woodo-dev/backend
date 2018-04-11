@@ -68,7 +68,7 @@ end
 
  [
   {
-    area: Area.find_by_neighborhood("Little Italy"),
+    area_id: 2,
     area_rating: 4,
     dining: 4,
     parking: 4,
@@ -77,7 +77,7 @@ end
     price: 4,
     family_friendly: true,
     review_text: "Little Italy reminded of my visit in Rome. Super Rad!",
-    user_id: 5
+    user_id: 1
   }
 ].each do |attributes|
   Review.create(attributes)
