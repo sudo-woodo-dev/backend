@@ -5,7 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-area_attributes = [
+[
     {
         id: 1,
         neighborhood:"East Village"
@@ -42,13 +42,12 @@ area_attributes = [
         id: 9,
         neighborhood:"Loma Portal"
     }
-]
-area_attributes.each do |attributes|
+].each do |attributes|
   Area.create(attributes)
 end
 
 
-user_attributes = [
+ [
     {
         name: "Dean",
         username:"FDR1510",
@@ -63,8 +62,7 @@ user_attributes = [
         password:"dean2013",
         password_confirmation:"dean2013"
     }
-]
-user_attributes.each do |attributes|
+].each do |attributes|
   User.create(attributes)
 end
 

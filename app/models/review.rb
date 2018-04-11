@@ -13,5 +13,5 @@ class Review < ApplicationRecord
     validates :review_text, presence: true
     validates :price, presence: true
     validates :user, presence: true
-    resourcify
+    
 end
